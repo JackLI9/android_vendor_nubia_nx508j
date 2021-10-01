@@ -898,6 +898,7 @@ PRODUCT_PACKAGES += \
     libloc_ds_api \
     libtime_genoff \
     QtiTelephonyService \
+    libwpa_qmi_eap_proxy \
     TimeService \
     shutdownlistener \
     CNEService \

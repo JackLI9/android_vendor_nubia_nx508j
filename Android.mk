@@ -53,6 +53,16 @@ LOCAL_MODULE_SUFFIX := .apk
 include $(BUILD_PREBUILT)
 
 include $(CLEAR_VARS)
+LOCAL_MODULE := libwpa_qmi_eap_proxy
+LOCAL_MODULE_OWNER := nubia
+LOCAL_SRC_FILES := proprietary/lib64/libwpa_qmi_eap_proxy.so
+LOCAL_MULTILIB := 64
+LOCAL_MODULE_TAGS := optional
+LOCAL_MODULE_CLASS := SHARED_LIBRARIES
+LOCAL_MODULE_SUFFIX := .so
+include $(BUILD_PREBUILT)
+
+include $(CLEAR_VARS)
 LOCAL_MODULE := TimeService
 LOCAL_MODULE_OWNER := nubia
 LOCAL_SRC_FILES := proprietary/app/TimeService/TimeService.apk
