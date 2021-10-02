@@ -179,6 +179,8 @@ PRODUCT_COPY_FILES += \
     vendor/nubia/nx508j/proprietary/framework/com.qti.location.sdk.jar:system/framework/com.qti.location.sdk.jar \
     vendor/nubia/nx508j/proprietary/framework/com.quicinc.cne.jar:system/framework/com.quicinc.cne.jar \
     vendor/nubia/nx508j/proprietary/framework/dpmapi.jar:system/framework/dpmapi.jar \
+    vendor/nubia/nx508j/proprietary/framework/QtiTelephonyServicelibrary.jar:system/framework/QtiTelephonyServicelibrary.jar \
+    vendor/nubia/nx508j/proprietary/framework/qti-telephony-common.jar:system/framework/qti-telephony-common.jar \
     vendor/nubia/nx508j/proprietary/framework/extendedmediaextractor.jar:system/framework/extendedmediaextractor.jar \
     vendor/nubia/nx508j/proprietary/framework/qcmediaplayer.jar:system/framework/qcmediaplayer.jar \
     vendor/nubia/nx508j/proprietary/framework/com.broadcom.nfc.jar:system/framework/com.broadcom.nfc.jar \
