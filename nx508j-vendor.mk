@@ -42,7 +42,6 @@ PRODUCT_COPY_FILES += \
     vendor/nubia/nx508j/proprietary/bin/qmuxd:system/bin/qmuxd \
     vendor/nubia/nx508j/proprietary/bin/qseecomd:system/bin/qseecomd \
     vendor/nubia/nx508j/proprietary/bin/radish:system/bin/radish \
-    vendor/nubia/nx508j/proprietary/bin/rild:system/bin/rild \
     vendor/nubia/nx508j/proprietary/bin/port-bridge:system/bin/port-bridge \
     vendor/nubia/nx508j/proprietary/bin/rfs_access:system/bin/rfs_access \
     vendor/nubia/nx508j/proprietary/bin/rmt_storage:system/bin/rmt_storage \
