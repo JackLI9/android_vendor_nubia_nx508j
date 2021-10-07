@@ -907,6 +907,7 @@ PRODUCT_PACKAGES += \
     com.qualcomm.location \
     dpmserviceapp \
     fastdormancy \
+    datastatusnotification \
     qcrilmsgtunnel \
     ims \
     imssettings \
