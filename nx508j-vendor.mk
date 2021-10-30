@@ -51,9 +51,9 @@ PRODUCT_COPY_FILES += \
     vendor/nubia/nx508j/proprietary/vendor/bin/ssr_setup:system/vendor/bin/ssr_setup \
     vendor/nubia/nx508j/proprietary/vendor/bin/ssr_diag:system/vendor/bin/ssr_diag \
     vendor/nubia/nx508j/proprietary/vendor/bin/tftp_server:system/vendor/bin/tftp_server \
-    vendor/nubia/nx508j/proprietary/etc/libnfc-brcm-20795a10.conf:system/etc/libnfc-brcm-20795a10.conf \
-    vendor/nubia/nx508j/proprietary/etc/libnfc-brcm.conf:system/etc/libnfc-brcm.conf \
-    vendor/nubia/nx508j/proprietary/etc/nfcee_access.xml:system/etc/nfcee_access.xml \
+    vendor/nubia/nx508j/proprietary/vendor/etc/libnfc-brcm-20795a10.conf:system/vendor/etc/libnfc-brcm-20795a10.conf \
+    vendor/nubia/nx508j/proprietary/vendor/etc/libnfc-brcm.conf:system/vendor/etc/libnfc-brcm.conf \
+    vendor/nubia/nx508j/proprietary/vendor/etc/nfcee_access.xml:system/vendor/etc/nfcee_access.xml \
     vendor/nubia/nx508j/proprietary/etc/acdbdata/Fluid/Fluid_Bluetooth_cal.acdb:system/etc/acdbdata/Fluid/Fluid_Bluetooth_cal.acdb \
     vendor/nubia/nx508j/proprietary/etc/acdbdata/Fluid/Fluid_General_cal.acdb:system/etc/acdbdata/Fluid/Fluid_General_cal.acdb \
     vendor/nubia/nx508j/proprietary/etc/acdbdata/Fluid/Fluid_Global_cal.acdb:system/etc/acdbdata/Fluid/Fluid_Global_cal.acdb \
@@ -162,14 +162,10 @@ PRODUCT_COPY_FILES += \
     vendor/nubia/nx508j/proprietary/framework/QtiTelephonyServicelibrary.jar:system/framework/QtiTelephonyServicelibrary.jar \
     vendor/nubia/nx508j/proprietary/framework/qcnvitems.jar:system/framework/qcnvitems.jar \
     vendor/nubia/nx508j/proprietary/framework/qcrilhook.jar:system/framework/qcrilhook.jar \
-    vendor/nubia/nx508j/proprietary/lib/hw/camera.msm8994.so:system/lib/hw/camera.msm8994.so \
     vendor/nubia/nx508j/proprietary/lib/soundfx/libhwdap.so:system/lib/soundfx/libhwdap.so \
     vendor/nubia/nx508j/proprietary/lib/soundfx/libswdap.so:system/lib/soundfx/libswdap.so \
     vendor/nubia/nx508j/proprietary/lib/libImageAlogrithm.so:system/lib/libImageAlogrithm.so \
     vendor/nubia/nx508j/proprietary/lib/libmm-qcamera.so:system/lib/libmm-qcamera.so \
-    vendor/nubia/nx508j/proprietary/lib/libmmcamera_interface.so:system/lib/libmmcamera_interface.so \
-    vendor/nubia/nx508j/proprietary/lib/libmmjpeg_interface.so:system/lib/libmmjpeg_interface.so \
-    vendor/nubia/nx508j/proprietary/lib/libqomx_core.so:system/lib/libqomx_core.so \
     vendor/nubia/nx508j/proprietary/lib/libqti-iop.so:system/lib/libqti-iop.so \
     vendor/nubia/nx508j/proprietary/vendor/lib/libloc_api_v02.so:system/vendor/lib/libloc_api_v02.so \
     vendor/nubia/nx508j/proprietary/lib64/hw/sensors.oem.so:system/lib64/hw/sensors.oem.so \
@@ -197,7 +193,7 @@ PRODUCT_COPY_FILES += \
     vendor/nubia/nx508j/proprietary/vendor/lib/egl/libQTapGLES.so:system/vendor/lib/egl/libQTapGLES.so \
     vendor/nubia/nx508j/proprietary/vendor/lib/egl/libq3dtools_adreno.so:system/vendor/lib/egl/libq3dtools_adreno.so \
     vendor/nubia/nx508j/proprietary/vendor/lib/egl/libq3dtools_esx.so:system/vendor/lib/egl/libq3dtools_esx.so \
-    vendor/nubia/nx508j/proprietary/vendor/lib/hw/keystore.msm8994.so:vendor/lib/hw/keystore.msm8994.so \
+    vendor/nubia/nx508j/proprietary/vendor/lib/hw/keystore.msm8994.so:system/vendor/lib/hw/keystore.msm8994.so \
     vendor/nubia/nx508j/proprietary/vendor/lib/hw/vulkan.msm8994.so:system/vendor/lib/hw/vulkan.msm8994.so \
     vendor/nubia/nx508j/proprietary/vendor/lib/hw/sound_trigger.primary.msm8994.so:system/vendor/lib/hw/sound_trigger.primary.msm8994.so \
     vendor/nubia/nx508j/proprietary/vendor/lib/libC2D2.so:system/vendor/lib/libC2D2.so \
@@ -833,6 +829,11 @@ PRODUCT_COPY_FILES += \
     vendor/nubia/nx508j/proprietary/lib/hw/audio.primary.msm8994.so:system/lib/hw/audio.primary.msm8994.so \
     vendor/nubia/nx508j/proprietary/lib/libtfa9890_interface.so:system/lib/libtfa9890_interface.so \
     vendor/nubia/nx508j/proprietary/lib64/libtfa9890_interface.so:system/lib64/libtfa9890_interface.so \
+
+    #vendor/nubia/nx508j/proprietary/lib/hw/camera.msm8994.so:system/lib/hw/camera.msm8994.so \
+    vendor/nubia/nx508j/proprietary/lib/libqomx_core.so:system/lib/libqomx_core.so \
+    vendor/nubia/nx508j/proprietary/lib/libmmjpeg_interface.so:system/lib/libmmjpeg_interface.so \
+    vendor/nubia/nx508j/proprietary/lib/libmmcamera_interface.so:system/lib/libmmcamera_interface.so \
 
     #vendor/nubia/nx508j/proprietary/vendor/qcril_database/upgrade/1_version_intro.sql:system/vendor/qcril_database/upgrade/1_version_intro.sql \
     vendor/nubia/nx508j/proprietary/vendor/qcril_database/upgrade/2_db_upgrade.sql:system/vendor/qcril_database/upgrade/2_db_upgrade.sql \
