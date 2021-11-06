@@ -81,27 +81,27 @@ LOCAL_MODULE_SUFFIX := .so
 LOCAL_VENDOR_MODULE := true
 include $(BUILD_PREBUILT)
 
-#include $(CLEAR_VARS)
-#LOCAL_MODULE := QtiTelephonyService
-#LOCAL_MODULE_OWNER := nubia
-#LOCAL_SRC_FILES := proprietary/app/QtiTelephonyService/QtiTelephonyService.apk
-#LOCAL_CERTIFICATE := platform
-#LOCAL_MODULE_TAGS := optional
-#LOCAL_MODULE_CLASS := APPS
-#LOCAL_DEX_PREOPT := false
-#LOCAL_MODULE_SUFFIX := .apk
-#include $(BUILD_PREBUILT)
-#
-#include $(CLEAR_VARS)
-#LOCAL_MODULE := datastatusnotification
-#LOCAL_MODULE_OWNER := nubia
-#LOCAL_SRC_FILES := proprietary/app/datastatusnotification/datastatusnotification.apk
-#LOCAL_CERTIFICATE := platform
-#LOCAL_MODULE_TAGS := optional
-#LOCAL_MODULE_CLASS := APPS
-#LOCAL_DEX_PREOPT := false
-#LOCAL_MODULE_SUFFIX := .apk
-#include $(BUILD_PREBUILT)
+include $(CLEAR_VARS)
+LOCAL_MODULE := QtiTelephonyService
+LOCAL_MODULE_OWNER := nubia
+LOCAL_SRC_FILES := proprietary/app/QtiTelephonyService/QtiTelephonyService.apk
+LOCAL_CERTIFICATE := platform
+LOCAL_MODULE_TAGS := optional
+LOCAL_MODULE_CLASS := APPS
+LOCAL_DEX_PREOPT := false
+LOCAL_MODULE_SUFFIX := .apk
+include $(BUILD_PREBUILT)
+
+include $(CLEAR_VARS)
+LOCAL_MODULE := datastatusnotification
+LOCAL_MODULE_OWNER := nubia
+LOCAL_SRC_FILES := proprietary/app/datastatusnotification/datastatusnotification.apk
+LOCAL_CERTIFICATE := platform
+LOCAL_MODULE_TAGS := optional
+LOCAL_MODULE_CLASS := APPS
+LOCAL_DEX_PREOPT := false
+LOCAL_MODULE_SUFFIX := .apk
+include $(BUILD_PREBUILT)
 
 include $(CLEAR_VARS)
 LOCAL_MODULE := qcrilmsgtunnel
@@ -113,6 +113,30 @@ LOCAL_MODULE_CLASS := APPS
 LOCAL_DEX_PREOPT := false
 LOCAL_MODULE_SUFFIX := .apk
 LOCAL_PRIVILEGED_MODULE := true
+include $(BUILD_PREBUILT)
+
+include $(CLEAR_VARS)
+LOCAL_MODULE := atfwd
+LOCAL_MODULE_OWNER := nubia
+LOCAL_MODULE_TAGS := optional
+LOCAL_SRC_FILES := proprietary/priv-app/atfwd/atfwd.apk
+LOCAL_CERTIFICATE := platform
+LOCAL_MODULE_CLASS := APPS
+LOCAL_DEX_PREOPT := false
+LOCAL_PRIVILEGED_MODULE := true
+LOCAL_MODULE_SUFFIX := $(COMMON_ANDROID_PACKAGE_SUFFIX)
+include $(BUILD_PREBUILT)
+
+include $(CLEAR_VARS)
+LOCAL_MODULE := CNEService
+LOCAL_MODULE_OWNER := nubia
+LOCAL_MODULE_TAGS := optional
+LOCAL_SRC_FILES := proprietary/priv-app/CNEService/CNEService.apk
+LOCAL_CERTIFICATE := platform
+LOCAL_MODULE_CLASS := APPS
+LOCAL_DEX_PREOPT := false
+LOCAL_PRIVILEGED_MODULE := true
+LOCAL_MODULE_SUFFIX := $(COMMON_ANDROID_PACKAGE_SUFFIX)
 include $(BUILD_PREBUILT)
 
 endif
