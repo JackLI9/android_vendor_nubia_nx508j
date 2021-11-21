@@ -170,7 +170,6 @@ PRODUCT_COPY_FILES += \
     vendor/nubia/nx508j/proprietary/etc/permissions/qti_permissions.xml:system/etc/permissions/qti_permissions.xml \
     vendor/nubia/nx508j/proprietary/etc/permissions/qti_telephony_common.xml:system/etc/permissions/qti_telephony_common.xml \
     vendor/nubia/nx508j/proprietary/etc/permissions/telephonyservice.xml:system/etc/permissions/telephonyservice.xml \
-    vendor/nubia/nx508j/proprietary/etc/sensors/hals.conf:system/etc/sensors/hals.conf \
     vendor/nubia/nx508j/proprietary/etc/sensors/sensor_def_qcomdev.conf:system/etc/sensors/sensor_def_qcomdev.conf \
     vendor/nubia/nx508j/proprietary/etc/surround_sound_3mic/surround_sound_rec_AZ.cfg:system/etc/surround_sound_3mic/surround_sound_rec_AZ.cfg \
     vendor/nubia/nx508j/proprietary/framework/ConnectivityExt.jar:system/framework/ConnectivityExt.jar \
