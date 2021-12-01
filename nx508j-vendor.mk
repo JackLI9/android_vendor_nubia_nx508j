@@ -816,8 +816,6 @@ PRODUCT_COPY_FILES += \
     vendor/nubia/nx508j/proprietary/vendor/lib64/libxtwifi_ulp_adaptor.so:system/vendor/lib64/libxtwifi_ulp_adaptor.so \
     vendor/nubia/nx508j/proprietary/vendor/qcril.db:system/vendor/qcril.db \
     vendor/nubia/nx508j/proprietary/etc/KaraParametersRecovery:system/etc/KaraParametersRecovery \
-    vendor/nubia/nx508j/proprietary/lib64/hw/audio.primary.msm8994.so:system/vendor/lib64/hw/audio.primary.msm8994.so \
-    vendor/nubia/nx508j/proprietary/lib/hw/audio.primary.msm8994.so:system/vendor/lib/hw/audio.primary.msm8994.so \
     vendor/nubia/nx508j/proprietary/lib/libtfa9890_interface.so:system/vendor/lib/libtfa9890_interface.so \
     vendor/nubia/nx508j/proprietary/lib64/libtfa9890_interface.so:system/vendor/lib64/libtfa9890_interface.so \
     vendor/nubia/nx508j/proprietary/lib/hw/camera.msm8994.so:system/lib/hw/camera.msm8994.so \
@@ -825,6 +823,9 @@ PRODUCT_COPY_FILES += \
     vendor/nubia/nx508j/proprietary/lib/libmmjpeg_interface.so:system/lib/libmmjpeg_interface.so \
     vendor/nubia/nx508j/proprietary/lib/libmmcamera_interface.so:system/lib/libmmcamera_interface.so \
     vendor/nubia/nx508j/proprietary/lib/libmm-qcamera.so:system/lib/libmm-qcamera.so \
+
+    #vendor/nubia/nx508j/proprietary/lib64/hw/audio.primary.msm8994.so:system/vendor/lib64/hw/audio.primary.msm8994.so \
+    vendor/nubia/nx508j/proprietary/lib/hw/audio.primary.msm8994.so:system/vendor/lib/hw/audio.primary.msm8994.so \
 
 PRODUCT_PACKAGES += \
     com.quicinc.cne.api@1.0 \
