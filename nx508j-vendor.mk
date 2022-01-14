@@ -47,6 +47,7 @@ PRODUCT_COPY_FILES += \
     vendor/nubia/nx508j/proprietary/vendor/etc/libnfc-brcm-20795a10.conf:system/vendor/etc/libnfc-brcm-20795a10.conf \
     vendor/nubia/nx508j/proprietary/vendor/etc/libnfc-nci.conf:system/vendor/etc/libnfc-nci.conf \
     vendor/nubia/nx508j/proprietary/vendor/etc/nfcee_access.xml:system/vendor/etc/nfcee_access.xml \
+    vendor/nubia/nx508j/proprietary/vendor/etc/drc/drc_cfg_AZ.txt:system/vendor/etc/drc/drc_cfg_AZ.txt \
     vendor/nubia/nx508j/proprietary/etc/acdbdata/Fluid/Fluid_Bluetooth_cal.acdb:system/etc/acdbdata/Fluid/Fluid_Bluetooth_cal.acdb \
     vendor/nubia/nx508j/proprietary/etc/acdbdata/Fluid/Fluid_General_cal.acdb:system/etc/acdbdata/Fluid/Fluid_General_cal.acdb \
     vendor/nubia/nx508j/proprietary/etc/acdbdata/Fluid/Fluid_Global_cal.acdb:system/etc/acdbdata/Fluid/Fluid_Global_cal.acdb \
@@ -153,7 +154,7 @@ PRODUCT_COPY_FILES += \
     vendor/nubia/nx508j/proprietary/vendor/etc/permissions/qcnvitems.xml:system/vendor/etc/permissions/qcnvitems.xml \
     vendor/nubia/nx508j/proprietary/vendor/etc/permissions/qcrilhook.xml:system/vendor/etc/permissions/qcrilhook.xml \
     vendor/nubia/nx508j/proprietary/vendor/etc/permissions/qti_permissions.xml:system/vendor/etc/permissions/qti_permissions.xml \
-    vendor/nubia/nx508j/proprietary/etc/surround_sound_3mic/surround_sound_rec_AZ.cfg:system/etc/surround_sound_3mic/surround_sound_rec_AZ.cfg \
+    vendor/nubia/nx508j/proprietary/vendor/etc/surround_sound_3mic/surround_sound_rec_AZ.cfg:system/vendor/etc/surround_sound_3mic/surround_sound_rec_AZ.cfg \
     vendor/nubia/nx508j/proprietary/vendor/etc/permissions/telephonyservice.xml:system/vendor/etc/permissions/telephonyservice.xml \
     vendor/nubia/nx508j/proprietary/vendor/framework/com.quicinc.cne.api-V1.0-java.jar:system/vendor/framework/com.quicinc.cne.api-V1.0-java.jar \
     vendor/nubia/nx508j/proprietary/vendor/framework/com.quicinc.cne.jar:system/vendor/framework/com.quicinc.cne.jar \
