@@ -825,9 +825,6 @@ PRODUCT_COPY_FILES += \
     vendor/nubia/nx508j/proprietary/vendor/lib/libmmjpeg_interface.so:system/vendor/lib/libmmjpeg_interface.so \
     vendor/nubia/nx508j/proprietary/vendor/lib/libmmcamera_interface.so:system/vendor/lib/libmmcamera_interface.so \
 
-    #vendor/nubia/nx508j/proprietary/lib64/hw/audio.primary.msm8994.so:system/vendor/lib64/hw/audio.primary.msm8994.so \
-    vendor/nubia/nx508j/proprietary/lib/hw/audio.primary.msm8994.so:system/vendor/lib/hw/audio.primary.msm8994.so \
-
 PRODUCT_PACKAGES += \
     com.quicinc.cne.api@1.0 \
     com.quicinc.cne.constants@1.0 \
