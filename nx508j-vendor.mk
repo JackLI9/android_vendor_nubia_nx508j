@@ -161,7 +161,7 @@ PRODUCT_COPY_FILES += \
     vendor/nubia/nx508j/proprietary/vendor/lib/libDiracAPI_SHARED.so:system/vendor/lib/libDiracAPI_SHARED.so \
     vendor/nubia/nx508j/proprietary/lib/soundfx/libhwdap.so:system/lib/soundfx/libhwdap.so \
     vendor/nubia/nx508j/proprietary/lib/soundfx/libswdap.so:system/lib/soundfx/libswdap.so \
-    vendor/nubia/nx508j/proprietary/lib/libImageAlogrithm.so:system/lib/libImageAlogrithm.so \
+    vendor/nubia/nx508j/proprietary/vendor/lib/libImageAlogrithm.so:system/vendor/lib/libImageAlogrithm.so \
     vendor/nubia/nx508j/proprietary/lib/libpin-cache.so:system/lib/libpin-cache.so \
     vendor/nubia/nx508j/proprietary/lib64/libpin-cache.so:system/lib64/libpin-cache.so \
     vendor/nubia/nx508j/proprietary/lib/libmiscta.so:system/lib/libmiscta.so \
@@ -817,13 +817,13 @@ PRODUCT_COPY_FILES += \
     vendor/nubia/nx508j/proprietary/vendor/lib64/libxtwifi_ulp_adaptor.so:system/vendor/lib64/libxtwifi_ulp_adaptor.so \
     vendor/nubia/nx508j/proprietary/vendor/qcril.db:system/vendor/qcril.db \
     vendor/nubia/nx508j/proprietary/etc/KaraParametersRecovery:system/etc/KaraParametersRecovery \
-    vendor/nubia/nx508j/proprietary/lib/libtfa9890_interface.so:system/vendor/lib/libtfa9890_interface.so \
-    vendor/nubia/nx508j/proprietary/lib64/libtfa9890_interface.so:system/vendor/lib64/libtfa9890_interface.so \
-    vendor/nubia/nx508j/proprietary/lib/hw/camera.msm8994.so:system/lib/hw/camera.msm8994.so \
-    vendor/nubia/nx508j/proprietary/lib/libqomx_core.so:system/lib/libqomx_core.so \
-    vendor/nubia/nx508j/proprietary/lib/libmmjpeg_interface.so:system/lib/libmmjpeg_interface.so \
-    vendor/nubia/nx508j/proprietary/lib/libmmcamera_interface.so:system/lib/libmmcamera_interface.so \
-    vendor/nubia/nx508j/proprietary/lib/libmm-qcamera.so:system/lib/libmm-qcamera.so \
+    vendor/nubia/nx508j/proprietary/vendor/lib/libtfa9890_interface.so:system/vendor/lib/libtfa9890_interface.so \
+    vendor/nubia/nx508j/proprietary/vendor/lib64/libtfa9890_interface.so:system/vendor/lib64/libtfa9890_interface.so \
+    vendor/nubia/nx508j/proprietary/vendor/lib/hw/camera.msm8994.so:system/vendor/lib/hw/camera.msm8994.so \
+    vendor/nubia/nx508j/proprietary/vendor/lib/libmm-qcamera.so:system/vendor/lib/libmm-qcamera.so \
+    vendor/nubia/nx508j/proprietary/vendor/lib/libqomx_core.so:system/vendor/lib/libqomx_core.so \
+    vendor/nubia/nx508j/proprietary/vendor/lib/libmmjpeg_interface.so:system/vendor/lib/libmmjpeg_interface.so \
+    vendor/nubia/nx508j/proprietary/vendor/lib/libmmcamera_interface.so:system/vendor/lib/libmmcamera_interface.so \
 
     #vendor/nubia/nx508j/proprietary/lib64/hw/audio.primary.msm8994.so:system/vendor/lib64/hw/audio.primary.msm8994.so \
     vendor/nubia/nx508j/proprietary/lib/hw/audio.primary.msm8994.so:system/vendor/lib/hw/audio.primary.msm8994.so \
