@@ -140,9 +140,9 @@ cc_prebuilt_library_shared {
 }
 
 android_app_import {
-	name: "UEIQuicksetSDKLeTV",
+	name: "UEIQuicksetSDKZTE",
 	owner: "nubia",
-	apk: "proprietary/app/UEIQuicksetSDKLeTV/UEIQuicksetSDKLeTV.apk",
+	apk: "proprietary/app/UEIQuicksetSDKZTE/UEIQuicksetSDKZTE.apk",
 	certificate: "platform",
 	dex_preopt: {
 		enabled: false,

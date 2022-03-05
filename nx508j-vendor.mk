@@ -826,7 +826,7 @@ PRODUCT_COPY_FILES += \
     vendor/nubia/nx508j/proprietary/vendor/lib/libmmcamera_interface.so:system/vendor/lib/libmmcamera_interface.so \
 
 PRODUCT_PACKAGES += \
-    UEIQuicksetSDKLeTV \
+    UEIQuicksetSDKZTE \
     com.quicinc.cne.api@1.0 \
     com.quicinc.cne.constants@1.0 \
     com.quicinc.cne.constants@2.0 \
